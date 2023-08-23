@@ -1,4 +1,4 @@
-function isPalindrome(str: string): boolean {
+export function isPalindrome(str: string): boolean {
   const specials = ['!', '?', '.', ' '];
   const clearStr = str.toLowerCase().split('').filter((char) => !specials.includes(char));
   const length = Math.floor(clearStr.length / 2);
