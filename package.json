@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"tsc -w"
+    "dev": "tsc -w",
+    "test": " vitest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.34.3"
+  }
 }

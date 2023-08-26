@@ -1,4 +1,4 @@
-function isPalindrome(str: string): boolean {
+export  function isPalindrome(str: string): boolean {
   let re = /[\W_]/g;
 
   let lowRegStr = str.toLowerCase().replace(re, "");
@@ -8,6 +8,6 @@ function isPalindrome(str: string): boolean {
   return reverseStr === lowRegStr;
 }
 
-const x = isPalindrome("Cigar? Toss it in a can. It is so tragic");
+  const x = isPalindrome("Cigar? Toss it in a can. It is so tragic");
 
-const y = isPalindrome("sit ad est love");
+  const y = isPalindrome("sit ad est love");
