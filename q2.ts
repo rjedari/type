@@ -1,10 +1,10 @@
-function test(x: number) {
-    for (let i = 1; i <= x; i++) {
-      let m = i % 2;
+export function divCheck(x: number) {
+
+      let m = x % 2;
   
-      let n = i % 3;
+      let n = x % 3;
   
-      let dev = i % 6;
+      let dev = x % 6;
   
       if (dev === 0) {
         return "fizz buzz";
@@ -13,7 +13,11 @@ function test(x: number) {
       } else if (m === 0) {
         return "fizz";
       }
-    }
+    
   }
   
-  test(20);
+  const test1=divCheck(6);
+  const test2=divCheck(2);
+  const test=divCheck(3);
+  console.log(test1,test2,test);
+         

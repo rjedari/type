@@ -1,4 +1,4 @@
-function countVowels(value: string) {
+export function countVowels(value: string) {
     let x = value.split("");
   
     const vowels = ["a", "e", "i", "o", "u"];

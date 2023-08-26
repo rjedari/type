@@ -1,4 +1,4 @@
-function checkNum(value: string, oldValue: string) {
+export function checkNum(value: string, oldValue: string) {
     let x = value.split("");
   
     let y = oldValue.split("");
